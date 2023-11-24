@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Merchant</name>
+   <name>HomePro - Edit Profile</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>de038d6e-d1cc-432d-aaee-5e6cc0bdda7a</testCaseGuid>
