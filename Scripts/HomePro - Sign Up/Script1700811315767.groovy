@@ -1,4 +1,4 @@
-//signup
+ //signup
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -123,7 +123,7 @@ Mobile.verifyElementNotExist(findTestObject('HomePro - Sign Up/android.widget.Te
 
 Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Next'), 0)
 
-//upload business cert
+//upload business cert (max 3)
 Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Upload'), 0)
 
 Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.TextView - Choose Gallery Photo'), 0)
@@ -132,6 +132,28 @@ Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.Button - CROP'), 0)
 
+Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Upload'), 0)
+
+Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.TextView - Choose Gallery Photo'), 0)
+
+Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.Button - CROP'), 0)
+
+Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Upload'), 0)
+
+Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.TextView - Choose Gallery Photo'), 0)
+
+Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/HomePro - Sign Up/android.widget.Button - CROP'), 0)
+
+Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Upload'), 0)
+
+Mobile.verifyElementNotExist(findTestObject('Object Repository/HomePro - Sign Up/android.widget.TextView - Choose Gallery Photo'), 
+    0)
+
+//input form
 Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - ChooseTYpe'), 0)
 
 Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.TextView - Interior Design'), 0)
