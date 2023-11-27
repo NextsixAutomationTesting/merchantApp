@@ -170,21 +170,11 @@ Mobile.sendKeys(findTestObject('Object Repository/HomePro - Sign Up/android.widg
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.scrollToText('Back', FailureHandling.STOP_ON_FAILURE)
+
 //scroll to bottom
-dHeight = Mobile.getDeviceHeight()
-
-dWidth = Mobile.getDeviceWidth()
-
-int startX = dWidth / 2
-
-int endX = startX
-
-int startY = dHeight * 0.3
-
-int endY = dHeight * 0.7
-
-Mobile.swipe(startX, endY, endX, startY)
-
 //input remaining fields
 Mobile.tap(findTestObject('HomePro - Sign Up/android.widget.EditText - City (1)'), 0)
 
